@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+    font-family:motiondam;
+    src:url("../font/AmaticSC-Bold.ttf")
+}
+@font-face
+{
+    font-family:motion1nhat;
+    src:url("../font/OpenSansCondensed-Light.ttf");
+}
+@font-face
+{
+    font-family:motion2dam;
+    src:url("../font/PlayfairDisplay-VariableFont_wght.ttf");
+}
+@font-face
+{
+    font-family:motion4;
+    src:url("../font/OpenSansCondensed-Bold.ttf");
+}
+.container01
+{
+    margin-top: 0;
+    position:relative;
+    width:100%;
+    height:720px;
+    background:url("../images/24b0a06772235.59f733c79bc18.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    box-sizing:border-box;
+}
+.chunen
+{
+    width:100%;
+    height: 500px;
+    background-color:0;
+    color:white;
+    padding:160px;    
+    box-sizing:border-box;
+}
+button
+{
+    width:200px;
+    height:60px;
+    background-color:rgba(131,131,131,1.00);
+    border-style:hidden;
+    
+    
+}
+.header
+{
+    width:100%;
+    height: 10px;
+    position:fixed;
+    top: 0;
+    background-color:black;
+    
+}
+.logo
+{
+    width:15%;
+    height: 80px;
+    float:left;
+    padding: 20px 0px 0px 40px;
+    box-sizing: border-box;
+}
+.menu
+{
+    width:70%;
+    height: 10px;
+    float:left;
+    color: white;
+    box-sizing: border-box;
+}
+.menu ul
+{
+   list-style: none;
+    box-sizing: border-box;
+}
+.menu ul li
+{
+    float:left;
+    margin-left: 50px 20px 40px 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    position:relative;
+    
+}
+.menu ul li::after
+{
+    content:"";
+    width:0px;
+    height:5px;
+    background:white;
+    position:absolute;
+    bottom:0px;
+    left:0;
+    transition: all 0.4s ease-in-out;
+}
+.menu ul li:hover:after
+{
+    
+    width:40%;
+    transform: translatex(100%);
+    
+}
+
+.icon
+{
+    width: 10%;
+    height:80px;
+    float:right;
+    padding: 30px 0px 10px 100px;
+    box-sizing: border-box;
+    color: white;
+}
+/*menuicon*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.brtrang1
+{
+    width:100%;
+    height: 1250px;
+    background-color:black;
+    padding: 40px;
+    box-sizing: border-box;
+    
+    
+}
+.motion
+{
+    width:100%;
+    height:150px;
+    background-color: black;
+    font-size: 50pt;
+    color: white;
+    font-family:Motiondam;
+}
+
+
+.trang1
+{
+    width:100%;
+    height:600px;
+    margin:auto;
+    
+}
+.trang1a
+{
+    width:50%;
+    height:600px;
+    background-color: black;
+    float:left;
+    box-sizing: border-box;
+    font-size: 15pt;
+    color: white;
+    font-family:motiondam;
+}
+
+
+.trang2
+{
+    width: 100%;
+    height: 200px;
+    background-color:black;
+}
+.trang2nh
+{
+    width:100%;
+    height:130px;
+    background-color: black;
+    color:brown;
+    font-size: 40pt;
+    padding:50px 0px 0px 0px;
+    box-sizing: border-box;
+    font-family: motion3;
+}
+.trang2a
+{
+    width: 25%;
+    height:215px;
+    background-color:#D9D9D9;
+    float: left;
+    margin: 40px 20px 0px 85px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 15pt;
+    font-family: motion3;
+}
+.trang2a:hover 
+{
+    opacity: 0.5;
+    height:210px;
+}
+
+
+
+.brtrang3
+{
+    width:100%;
+    height:630px;
+    background-color: black;
+    background:url( "../images/82cb646772235.59f733c79a610.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+.brtrang3mo
+{
+    width:100%;
+    height:630px;
+    background-color:rgba(0,0,0,0.40);
+}
+.nenbangsale3a
+{
+    width:50%;
+    height:50px;
+    background-color:#EAEAEA;
+    color:#C70E11;
+    padding: 0px 20px 10px 0px;
+    margin: 10px 0px 0px 0px;
+    box-sizing: border-box;
+    
+    
+}
+.bangsale3a
+{
+    width:70%;
+    height:300px;
+    background-color:#EAEAEA;
+    float:left;
+    box-sizing:border-box;
+    padding: 10px 50px 0px 50px;
+    opacity:0.9;
+    font-size: 17pt;
+    box-sizing: border-box;
+    font-family: motion3;
+}
+.nenbangsale3b
+{
+    width:50%;
+    height:50px;
+    background-color:#EAEAEA;
+    color:#C70E11;
+    padding: 10px 0px 50px 0px;
+    box-sizing: border-box;
+    
+    
+}
+.bangsale3b
+{
+    width:70%;
+    height:300px;
+    background-color:#EAEAEA;
+    float:right;
+    box-sizing:border-box;
+    margin-top:30px;
+    opacity:0.9;
+    font-size:18pt;
+    padding:20px 20px 0px 70px;
+    font-family: motion3;
+}
+.nenden
+{
+    width:100%;
+    height:200px;
+    background-color:black;
+}
+.brtrong4
+{
+    width:100%;
+    height: 200px;
+    background-color:black;
+    color:white;
+    font-size:40pt;
+    padding: 60px 0px 0px 70px;
+    box-sizing: border-box;
+    font-family:motion1dam;
+}
+.brtrang4
+{
+    width:100%;
+    height:3300px;
+    background-color: blue;
+}
+.trang4a
+{
+    width:100%;
+    height:620px;
+    background-color: black;
+}
+.trang4apic
+{
+    width:45%;
+    height:auto;
+    background-color:black;
+    background-size: cover;
+    float:left;
+    margin-left:50px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.trang4atext
+{
+    width:50%;
+    height:550px;
+    background-color:black;
+    float:right;
+    font-size:15pt;
+    padding: 180px 70px 0px 70px;
+    box-sizing: border-box;
+    color: white;
+    font-family:motion1dam;
+}
+.giaoab
+{
+    width:100%;
+    height:50px;
+    background-color:black;
+}
+.trang4b
+{
+    width:100%;
+    height:620px;
+    background-color:black;
+}
+.trang4bpic
+{
+    width:50%;
+    height:auto;
+    background-color:black;
+    float:right;
+    background-size: cover;
+    margin-right:30px 60px;
+    margin-top: 20px;
+    padding:0px 50px 0px 100px;
+    box-sizing: border-box;
+}
+.trang4btext
+{
+    width:45%;
+    height:550px;
+    background-color:black;
+    float:right;
+    font-size:15pt;
+    padding: 170px 20px 0px 30px;
+    box-sizing: border-box;
+    margin:0px 40px 0px 0px;
+    color: white;
+    font-family:motion1dam;
+}
+.giaobc
+{
+    width:100%;
+    height:50px;
+    background-color:black;
+}
+.trang4c
+{
+    width:100%;
+    height:620px;
+    background-color:black;
+}
+.trang4cpic
+{
+    width:45%;
+    height:auto;
+    background-color:black;
+    background-size: cover;
+    float:left;
+    margin-left:50px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.trang4ctext
+{
+    width:50%;
+    height:550px;
+    background-color:black;
+    float:right;
+    font-size:15pt;
+    padding: 170px 70px 0px 70px;
+    box-sizing: border-box;
+    color: white;
+    font-family:motion1dam;
+}
+.giaocd
+{
+    width:100%;
+    height:50px;
+    background-color:black;
+}
+.trang4d
+{
+    width:100%;
+    height:620px;
+    background-color:black;
+}
+.trang4dpic
+{
+    width:45%;
+    height:auto;
+    background-color:black;
+    float:right;
+    background-size: cover;
+    margin-right:30px 20px;
+    margin-top: 20px;
+    padding:0px 50px 0px 30px;
+    box-sizing: border-box;
+}
+.trang4dtext
+{
+    width:55%;
+    height:550px;
+    background-color:black;
+    float:right;
+    font-size:15pt;
+    padding: 190px 100px 0px 60px;
+    box-sizing: border-box;
+    color: white;
+    font-family:motion1dam;
+}
+.giaode
+{
+    width:100%;
+    height:50px;
+    background-color:black;
+}
+.trang4e
+{
+    width:100%;
+    height:620px;
+    background-color:black;
+}
+.trang4epic
+{
+    width:45%;
+    height:auto;
+    background-color:black;
+    background-size: cover;
+    float:left;
+    margin-left:50px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.trang4etext
+{
+    width:50%;
+    height:550px;
+    background-color:black;
+    float:right;
+    font-size:15pt;
+    padding: 160px 70px 0px 70px;
+    box-sizing: border-box;
+    color: white;
+    font-family:motion1dam;
+}
+.brtrong5
+{
+    width:100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 28pt;
+    padding: 25px;
+    box-sizing: border-box;
+    font-family:motion1dam;
+}
+.brtrang5art1
+{
+    width:100%;
+    height:670px;
+    background-color: black;
+    color:crimson;
+    font-family:motiondam;
+
+}
+.brtrang6
+{
+    width:100%;
+    height:620px;
+    background-color: black;
+    
+}
+.trangdanhgiatua
+{
+    width:20%;
+    height: 50px;
+    background-color:black;
+    float:left;
+    margin:20px 35px;
+    font-size:13px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    color:white;
+    font-family:motion1dam;
+}
+.trangdanhgia
+{
+    width:20%;
+    height:420px;
+    background-color:black;
+    float:left;
+    margin:20px 35px;
+    font-size:13pt;
+    padding: 20px;
+    box-sizing: border-box;
+    color:#B7B7B7
+}
+.trangdanhgia:hover
+{
+    opacity:1;
+    color:white;
+}
+.brtrangcuoi
+{
+    width:100%;
+    height:370px;
+    background-color: black;
+}
+.bangthongtin
+{
+    width:100%;
+    height:370px;
+    background-color:black;
+    float:right;
+    color:white;
+    padding:30px;
+    box-sizing: border-box;
+    font-family:motion1nhat;
+}
